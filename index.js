@@ -33,4 +33,4 @@ app.post('/query', async (req, res) => {
 });
 
 
-app.listen(3000, 'localhost', ()=>console.log('http://localhost:3000/'))
+app.listen(3000, '0.0.0.0', ()=>console.log('http://localhost:3000/'))
